@@ -1,0 +1,164 @@
+﻿html , body{
+	height: 100%;
+	width: 100%;
+}
+
+.navbar{
+	background-color: #0d0d0d;
+	padding: 1% 0;
+	font-size: 1.2em;
+}
+
+.navbar-brand{
+	min-height: 55px;
+	padding: 0 15px 5px;
+}
+
+.navbar-default .navbar-nav li a {
+	color: #d5d5d5;
+}
+
+.navbar-default .navbar-nav li a:hover, .navbar-default .navbar-nav li a.active{
+	color: #f4a93a;
+}
+
+h4{
+	font-weight: bold;
+}
+h2 {
+	font-weight: bold;
+}
+h3 {
+	font-weight:bold ;
+}
+
+.text-light{
+	font-weight: lighter;
+}
+#home{
+	background: url(img/ECHO\ 2021\ Gold\ light\ animation\ image\ flat\ AW\ 01\ 15052021.jpg)no-repeat center center fixed;
+	display: table;
+	height: 85%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+
+
+.padding{
+	padding: 80px 0;
+}
+.padding img {
+	width: 100%;
+}
+
+#fixed{
+	background: url(img/ECHO\ 2021\ Grand\ Jury\ AW05\ 27052021.jpg) no-repeat center center fixed;
+	display: table;
+	height: 60%;
+	width: 100%;
+	position: relative;
+	background-size: cover;
+}
+
+footer {
+	width: 100%;
+	background-color:#0d0d0d ;
+	padding: 5% 5% 10% 5%;
+	color: #f4a93a;
+}
+
+.fa {
+	padding: 15px;
+	font-size: 25px;
+	color: #d5d5d5;
+}
+
+.fa:hover{
+	color: #f4a93a;
+	text-decoration: none;
+}
+
+.icon{
+	max-width: 200px;
+	cursor: pointer;
+}
+
+#last{
+	margin: 0;
+	padding: 0;
+	background: #0d0d0d;
+}
+
+.container .row a{
+	color: #0d0d0d;
+	text-decoration: underline  3px solid  #fecc65;
+	
+}
+
+.container .row a:hover {
+   
+    background-color: #fecc65;
+	transition: all 0.7s ease-out;
+}
+
+#pad{
+	padding-bottom: 23px;
+}
+
+.box{
+	padding-bottom: 13px;
+}
+
+.box1 {
+	background: #ababab;
+	color: white;
+}
+
+.partner{
+	padding: 25px 31px;
+    font-size: 22px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+	background: #f4a93a;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+.partner:hover{
+	background: #0d0d0d;
+	color: #f4a93a;
+}
+
+#up{
+	padding-top: 0;
+	padding-bottom: 70px;
+}
+
+
+@media (max-width: 768px) {
+	.landing-text h1 {
+		font-size: 300%;
+	}
+	.fa {
+		font-size: 20px;
+		padding: 10px;
+	}
+
+	.icon{
+		padding-top:5% ;
+		max-width: 100px;
+	}
+	
+}
+
+.partner{
+    font-size: 14px;  
+}
+
+
+
+
+
+
